@@ -1,0 +1,1 @@
+export const basePath = "https://xkcd.com/100/info.0.json";

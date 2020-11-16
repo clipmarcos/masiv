@@ -1,0 +1,110 @@
+@import './variables';
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: $colorBlue;
+    background-image: $colorDegraded;
+    font-family: 'Goldman', cursive;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.content-comic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    .comic-title {
+        text-align: center;
+        font-size: 2.5em;
+        padding: 10px 8px 0px 8px;
+        color: $colorWhite;
+    }
+    .comic-img {
+        padding: 0px 30px;
+        max-width: 100%;
+        height: 300px;
+        object-fit: contain;
+    }
+    .comic-body {
+        text-align: center;
+    }
+}
+
+.loader {
+    border: 16px solid $colorWhite;
+    border-radius: 50%;
+    border-top: 16px solid $colorGreen;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    /* Safari */
+    animation: spin 1s linear infinite;
+}
+
+
+/* Safari */
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    color: $colorGray;
+}
+
+form {
+    p {
+        margin: 0;
+    }
+}
+
+.clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    font-size: 60px;
+}
+
+label:hover,
+label:hover~label {
+    color: $colorYellow;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked~label {
+    color: $colorYellow;
+}
