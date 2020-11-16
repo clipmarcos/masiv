@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/masiv/static/css/main.0c25bf08.chunk.css",
-    "main.js": "/masiv/static/js/main.bc23e8f3.chunk.js",
-    "main.js.map": "/masiv/static/js/main.bc23e8f3.chunk.js.map",
+    "main.css": "/masiv/static/css/main.13f0147f.chunk.css",
+    "main.js": "/masiv/static/js/main.a84e1f54.chunk.js",
+    "main.js.map": "/masiv/static/js/main.a84e1f54.chunk.js.map",
     "runtime-main.js": "/masiv/static/js/runtime-main.c762bbc5.js",
     "runtime-main.js.map": "/masiv/static/js/runtime-main.c762bbc5.js.map",
     "static/js/2.30e8fa16.chunk.js": "/masiv/static/js/2.30e8fa16.chunk.js",
     "static/js/2.30e8fa16.chunk.js.map": "/masiv/static/js/2.30e8fa16.chunk.js.map",
     "index.html": "/masiv/index.html",
-    "static/css/main.0c25bf08.chunk.css.map": "/masiv/static/css/main.0c25bf08.chunk.css.map",
+    "static/css/main.13f0147f.chunk.css.map": "/masiv/static/css/main.13f0147f.chunk.css.map",
     "static/js/2.30e8fa16.chunk.js.LICENSE.txt": "/masiv/static/js/2.30e8fa16.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c762bbc5.js",
     "static/js/2.30e8fa16.chunk.js",
-    "static/css/main.0c25bf08.chunk.css",
-    "static/js/main.bc23e8f3.chunk.js"
+    "static/css/main.13f0147f.chunk.css",
+    "static/js/main.a84e1f54.chunk.js"
   ]
 }
