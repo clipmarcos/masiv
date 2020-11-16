@@ -1,4 +1,4 @@
 # TECHNICAL TEST OF THE FRONT DEVELOPER FOR MASIVIAN COMPANY
 
-<p align="center"><img src="https://drive.google.com/file/d/1WGNz8fzsLL4f12xISdnxnaDCmQVSUywC/view" width="400"></p>
+<p align="center"><img src="https://sad-lamarr-db9cc6.netlify.app/descripcion.png" width="400"></p>
 
