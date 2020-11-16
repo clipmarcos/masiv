@@ -16,12 +16,15 @@
 
 To run the program you must perform the following steps:
 
-
+1-)We must install all the packages of the project with the following command:
 ```
 * git clone https://github.com/clipmarcos/masiv.git
- 
+ ```
+ ```
 * npm install
- 
+Important! at this point the installation of the packages will take more or less 10 min depending on the speed of the internet, keep in mind that this node-sass package weighs a lot if you like you can ignore it. so it takes less time.
+ ```
+ ```
 * npm start
   
  ```
