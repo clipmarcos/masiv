@@ -18,16 +18,23 @@ const ComicView = () => {
 
     const getLisComict = async () => {
         setLoader(true);
+        
+        
+
         const randomOK = Math.floor(Math.random() * (100 - 1 + 1)) + 1;
         const resp = await getComic({ random: randomOK });
        
 
 
         if (resp === undefined) {
-           
+            
+             document.getElementById('alert').classList.remove('d-none');
+             document.getElementById('alert').classList.add('d-show');
             return
         }
         if (resp.status === 200) {
+            document.getElementById('alert').classList.remove('d-show');
+            document.getElementById('alert').classList.add('d-none');
             
             const { title } = resp.data;
             const { img } = resp.data;
@@ -45,8 +52,12 @@ const ComicView = () => {
                 
                     <div className="content-comic">
                         <h1 className="comic-title animate__animated animate__rollIn ">{title}</h1>
-
-                        {loader ? <div className="loader"></div>
+                        <div id="alert" className="d-none">
+                           <p>Sorry, has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.</p>
+                        </div>
+                        {loader ? 
+                         
+                         <div className="loader"></div>
                             :
                             <div className="comic-body">
 

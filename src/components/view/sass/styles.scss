@@ -108,3 +108,14 @@ label:hover~label {
 input[type="radio"]:checked~label {
     color: $colorYellow;
 }
+
+.d-none {
+    display: none;
+}
+
+.d-show {
+    color: red;
+    width: 60%;
+    text-align: center;
+    display: block;
+}
