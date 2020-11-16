@@ -18,18 +18,10 @@ To run the program you must perform the following steps:
 
 
 ```
-* composer install
- 
-* php artisan migrate
- 
-* php artisan passport:install
+* git clone https://github.com/clipmarcos/masiv.git
  
 * npm install
  
-* npm run watch
-
-* php artisan key:generate
- 
-* php artisan serve
- 
+* npm start
+  
  ```
